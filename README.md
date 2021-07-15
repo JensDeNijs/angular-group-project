@@ -1,9 +1,7 @@
 # SHOPPING-LIST
-Contributors 
-
-@LaurentBosteels
-
-@JensDeNijs
+Contributors:  
+[Laurent Bosteels](https://github.com/Laurent-Bosteels)  
+[Jens De Nijs](https://github.com/JensDeNijs)
 
 ## TO-DO
 
