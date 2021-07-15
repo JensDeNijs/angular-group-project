@@ -7,17 +7,17 @@ Contributors:
 
 - [x] Initiate a new project
 - [x] Add bootstrap
-- [ ] Create a form
-- [ ] Implement `#formName="ngForm"`
-- [ ] Make a class " ListItem "
-- [ ] Add validation to the form
-- [ ] Submit function
-- [ ] HTTP request / post to the server
-- [ ] Subscribe to an observable
-- [ ] Change the port of the server
-- [ ] Make a post function with the right path
-- [ ] Get request
-- [ ] Use the OnInit function
+- [x] Create a form
+- [x] Implement `#formName="ngForm"`
+- [x] Make a class " ListItem "
+- [x] Add validation to the form
+- [x] Submit function
+- [x] HTTP request / post to the server
+- [x] Subscribe to an observable
+- [x] Change the port of the server
+- [x] Make a post function with the right path
+- [x] Get request
+- [x] Use the OnInit function
 - [ ] Display all data
 - [ ] CSS/Bootstrap
 
