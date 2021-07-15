@@ -1,5 +1,9 @@
 # SHOPPING-LIST
-A project by @Laurent-Bosteels and @Jens-De-Nijs
+Contributors 
+
+@LaurentBosteels
+
+@JensDeNijs
 
 ## TO-DO
 
