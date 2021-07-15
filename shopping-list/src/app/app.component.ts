@@ -12,4 +12,7 @@ export class AppComponent {
   public listItem = new ListItem("", "", "");
   public regx = "^[A-Za-z0-9 ]+$";
 
+  submitItem(){
+
+  }
 }

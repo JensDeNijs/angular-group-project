@@ -1,5 +1,5 @@
 {{ listItem | json }}
-<form #shoppingForm="ngForm">
+<form #shoppingForm="ngForm" (ngSubmit)="submitItem()">
 
   <label>Item</label><br>
   <input [(ngModel)]="listItem.itemName" name="itemName" #itemName="ngModel" id="itemName" required [class.error]="itemName.invalid && itemName.touched" pattern="{{regx}}"><br>
