@@ -5,8 +5,8 @@ Contributors:
 
 ## TO-DO
 
-- [ ] Initiate a new project
-- [ ] Add bootstrap
+- [x] Initiate a new project
+- [x] Add bootstrap
 - [ ] Create a form
 - [ ] Implement `#formName="ngForm"`
 - [ ] Make a class " ListItem "
