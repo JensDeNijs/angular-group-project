@@ -1,20 +1,20 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<div class="col-lg-12 text-center">
-<p>Hello, World</p>
-</div>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+{{ listItem | json }}
+<form #shoppingForm="ngForm">
+
+  <label>Item</label><br>
+  <input [(ngModel)]="listItem.itemName" name="itemName" #itemName="ngModel" id="itemName" required [class.error]="itemName.invalid && itemName.touched" pattern="{{regx}}"><br>
+
+  <label>Quantity</label><br>
+  <input [(ngModel)]="listItem.quantity" name="itemQuantity" #itemQuantity="ngModel" id="itemQuantity" required [class.error]="itemQuantity.invalid && itemQuantity.touched" pattern="{{regx}}"><br>
+
+  <label>Category</label><br>
+  <select [(ngModel)]="listItem.category" name="itemCat" #itemCat="ngModel" id="itemCat" required [class.error]="itemCat.invalid && itemCat.touched">
+    <option *ngFor="let item of data" value="{{item}}">{{item}}</option>
+  </select><br>
+
+  <button>Submit</button>
+
+</form>
 
 <router-outlet></router-outlet>
+
