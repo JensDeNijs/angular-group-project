@@ -1,1 +1,13 @@
-# angular-group-project
+# SHOPPING-LIST
+======
+
+## TO-DO
+------
+
+-[ ] test
+-[ ] 
+-[ ] 
+-[ ] 
+-[ ] 
+-[ ] 
+-[ ]
