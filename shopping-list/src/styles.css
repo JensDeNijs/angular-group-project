@@ -1,6 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.min.css";
-.error{
-  border-color: red;
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap');
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgb(129, 204, 178);
+  background: linear-gradient(180deg, rgba(129, 204, 178, 1) 0%, rgba(80, 178, 168, 1) 100%);
+  font-family: 'Archivo', sans-serif;
+}
+
+.card {
+  background-color: #f6f6f6;
+}
+
+.card,
+.card li {
+  color: #808080;
+  background-color: #f6f6f6;
+}
+
+.card a {
+  color: rgba(129, 204, 178, 1);
+  text-decoration: none;
+}
+
+.btn-nav,
+.btn-nav:hover {
+  background-color: #f6f6f6;
+}
+
+.btn-card,
+.btn-card:hover {
+  background: linear-gradient(-90deg, rgba(129, 204, 178, 1) 0%, rgba(80, 178, 168, 1) 100%);
+  color: #f6f6f6;
+  text-decoration: none;
 }
