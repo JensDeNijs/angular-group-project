@@ -32,8 +32,11 @@ body {
 }
 
 .btn-nav,
-.btn-nav:hover {
+.btn-nav:hover
+.btn-nav:active {
   background-color: #f6f6f6;
+  color: #808080;
+  border: none;
 }
 
 .btn-card,
