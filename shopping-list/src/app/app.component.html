@@ -12,7 +12,7 @@
     <option *ngFor="let item of data" value="{{item}}">{{item}}</option>
   </select><br>
 
-  <button>Submit</button>
+  <button [disabled]="shoppingForm.form.invalid">Submit</button>
 
 </form>
 
