@@ -29,19 +29,19 @@
               <div class="mb-3">
               <label>Item:</label><br>
               <input class="form-control" [(ngModel)]="listItem.itemName" name="itemName" #itemName="ngModel" id="itemName" required
-                [class.error]="itemName.invalid && itemName.touched" pattern="{{regx}}">
+              [class.is-invalid]="itemName.invalid && itemName.touched" pattern="{{regx}}">
               </div>
 
               <div class="mb-3">
               <label>Quantity:</label><br>
               <input class="form-control" [(ngModel)]="listItem.quantity" name="itemQuantity" #itemQuantity="ngModel" id="itemQuantity"
-                required [class.error]="itemQuantity.invalid && itemQuantity.touched" pattern="{{regx}}">
+                required [class.is-invalid]="itemQuantity.invalid && itemQuantity.touched" pattern="{{regx}}">
               </div>
 
               <div class="mb-3">
               <label>Category:</label><br>
               <select class="form-select" placeholder="Select item" [(ngModel)]="listItem.category" name="itemCat" #itemCat="ngModel" id="itemCat" required
-                [class.error]="itemCat.invalid && itemCat.touched">
+              [class.is-invalid]="itemCat.invalid && itemCat.touched">
                 <option value="" selected disabled>Please select</option>
                 <option *ngFor="let item of data" value="{{item}}">{{item}}</option>
               </select>
