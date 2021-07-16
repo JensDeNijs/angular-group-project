@@ -44,4 +44,5 @@ body {
   background: linear-gradient(-90deg, rgba(129, 204, 178, 1) 0%, rgba(80, 178, 168, 1) 100%);
   color: #f6f6f6;
   text-decoration: none;
+  width: 100px;
 }
