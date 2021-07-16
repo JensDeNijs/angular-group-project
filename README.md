@@ -18,8 +18,8 @@ Contributors:
 - [x] Make a post function with the right path
 - [x] Get request
 - [x] Use the OnInit function
-- [ ] Display all data
-- [ ] CSS/Bootstrap
+- [x] Display all data
+- [x] CSS/Bootstrap
 
 ## Nice to haves
 - [ ] Unsplash.com API for product pictures
