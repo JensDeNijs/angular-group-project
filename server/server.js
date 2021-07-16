@@ -33,18 +33,23 @@ app.post('/', function (request, response) {
 });
 
 app.post('/allItems', function (request, response) {
-    allItems.push(request.body)
+    allItems.push(request.body);
+    response.status(200).send({"message": "Data received"})
 });
 
 app.delete("/allItems/:id", function (request, response) {
 
     const itemIndex = allItems.findIndex(function (o) {
-        return o.id === ( request.params.id)
+        return o.id === (request.params.id)
     });
 
     if (itemIndex !== -1) {
         allItems.splice(itemIndex, 1);
+        response.status(200).send({"message": "item deleted"});
+    }else{
+        response.status(400).send({"message": "id not found"});
     }
+
 });
 
 app.listen(PORT, function () {
