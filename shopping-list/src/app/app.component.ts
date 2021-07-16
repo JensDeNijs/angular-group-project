@@ -1,7 +1,7 @@
 import {Component,OnInit} from '@angular/core';
 import {ListItem} from "./list-item";
 import {AddItemService} from "./add-item.service";
-
+import {uid} from "uid";
 
 @Component({
   selector: 'app-root',
@@ -28,6 +28,11 @@ export class AppComponent implements OnInit{
   submitItem(){
     console.log(this.listItem)
     this.addItem.addItem(this.listItem).subscribe(data => console.log('It worked', data),error => console.log('It did not worked', error))
+    this.asyncItems(this.addItem.url)
+  }
+
+  deleteItem(id:number){
+    this.addItem.deleteItem(id).subscribe(data => console.log('It worked', data),error => console.log('It did not worked', error))
     this.asyncItems(this.addItem.url)
   }
 

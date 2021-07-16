@@ -15,7 +15,7 @@ app.all("/*", function (req, res, next) {
 });
 
 
-let allItems = [{itemName: 'bread', quantity: '200g', category: 'Drinks', id: 6969}];
+let allItems = [{itemName: 'bread', quantity: '200g', category: 'Drinks', id: "696969420"}];
 
 // Below you can define how your API handles a get or a post request.
 // Try sending a get request to the root, you should get a "Hello from server" back.
@@ -36,9 +36,13 @@ app.post('/allItems', function (request, response) {
     allItems.push(request.body)
 });
 
-app.delete("/allItems", function (request, response) {
-    const itemIndex = allItems.findIndex(({index}) => index === request.indexOf);
-    if (itemIndex >= 0) {
+app.delete("/allItems/:id", function (request, response) {
+
+    const itemIndex = allItems.findIndex(function (o) {
+        return o.id === ( request.params.id)
+    });
+
+    if (itemIndex !== -1) {
         allItems.splice(itemIndex, 1);
     }
 });

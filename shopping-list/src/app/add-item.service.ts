@@ -17,4 +17,8 @@ export class AddItemService {
     return this.http.post(this.url, item)
   }
 
+  deleteItem(itemId: number) {
+    return this.http.delete(this.url+"/"+itemId)
+  }
+
 }
