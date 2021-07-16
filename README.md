@@ -30,6 +30,7 @@ Contributors:
 ### Extra nice to haves
 - [ ] Add a recipe to the item
 - [ ] Allergies API
+- [ ] Compact view
 
 ## Inspiration
 ![](https://i.pinimg.com/564x/6e/58/95/6e58956f03b78eadcaa377cffdd49c94.jpg)
