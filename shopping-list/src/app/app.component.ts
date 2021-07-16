@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ListItem} from "./list-item";
 import {AddItemService} from "./add-item.service";
-import {Unsplash} from "./unsplash";
+
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,6 @@ export class AppComponent implements OnInit {
   public regx = "^[A-Za-z0-9 ]+$";
   private addItem: AddItemService;
   public allItems: ListItem[] = [];
-  public unsplash = new Unsplash();
   public img = [];
   public promises: Promise<any>[] = [];
 
