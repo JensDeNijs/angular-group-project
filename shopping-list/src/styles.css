@@ -34,10 +34,15 @@ body {
   text-decoration: none;
 }
 
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .btn-nav,
 .btn-nav:hover .btn-nav:active {
-  background-color: #f6f6f6;
-  color: #808080;
+  background-color: #f6f6f6!important;
+  color: #808080!important;
   border: none;
 }
 
