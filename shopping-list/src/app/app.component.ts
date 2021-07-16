@@ -28,6 +28,7 @@ export class AppComponent implements OnInit{
   submitItem(){
     console.log(this.listItem)
     this.addItem.addItem(this.listItem).subscribe(data => console.log('It worked', data),error => console.log('It did not worked', error))
+    this.listItem= new ListItem("", "", "");
     this.asyncItems(this.addItem.url)
   }
 
