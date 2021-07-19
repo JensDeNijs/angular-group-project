@@ -22,15 +22,22 @@ Contributors:
 - [x] CSS/Bootstrap
 
 ## Nice to haves
-- [ ] Unsplash.com API for product pictures
-- [ ] Mark as done function
-- [ ] Delete/Edit button
-- [ ] Make the list responsive
+- [x] Unsplash.com API for product pictures
+- [x] Mark as done function
+- [x] Delete/Edit button
+- [x] Make the list responsive
 
 ### Extra nice to haves
 - [ ] Add a recipe to the item
 - [ ] Allergies API
 - [ ] Compact view
+
+## How to run the project
+- Clone the repo to your local folder
+- Navigate with the terminal to the project directory and run `ng serve --port 4500` in your terminal
+- You can visit the page at http://localhost:4500/
+- Then navigate with the terminal to the server directory and run `node server`
+- Everything is all set up! add some products!
 
 ## Inspiration
 ![](https://i.pinimg.com/564x/6e/58/95/6e58956f03b78eadcaa377cffdd49c94.jpg)
