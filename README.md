@@ -39,6 +39,4 @@ Contributors:
 - Then navigate with the terminal to the server directory and run `node server`
 - Everything is all set up! add some products!
 
-## Inspiration
-![](https://i.pinimg.com/564x/6e/58/95/6e58956f03b78eadcaa377cffdd49c94.jpg)
-![](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1dc3b250941731.58dda1470df88.png)
+
