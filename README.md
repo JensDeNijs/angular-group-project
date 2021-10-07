@@ -4,10 +4,14 @@ Contributors:
 [Jens De Nijs](https://github.com/JensDeNijs)
 
 ## Preview
-![](pic/Screenshot 2021-10-07 at 12-13-51 ShoppingList.png)
-![](pic/Screenshot 2021-10-07 at 12-14-19 ShoppingList.png)
-![](pic/Screenshot 2021-10-07 at 12-14-48 ShoppingList.png)
-![](pic/Screenshot 2021-10-07 at 12-15-01 ShoppingList.png)
+
+![1](pic/pic1.png)
+
+![2](pic/pic2.png)
+
+![3](pic/pic3.png)
+
+![](pic/pic4.png)
 
 
 ## TO-DO
