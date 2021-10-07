@@ -3,6 +3,10 @@ Contributors:
 [Laurent Bosteels](https://github.com/Laurent-Bosteels)  
 [Jens De Nijs](https://github.com/JensDeNijs)
 
+## Preview
+![](pic/Screenshot 2021-10-07 at 12-13-51 ShoppingList.png)![](pic/Screenshot 2021-10-07 at 12-14-19 ShoppingList.png)![](pic/Screenshot 2021-10-07 at 12-14-48 ShoppingList.png)![](pic/Screenshot 2021-10-07 at 12-15-01 ShoppingList.png)
+
+
 ## TO-DO
 
 - [x] Initiate a new project
